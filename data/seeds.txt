@@ -31,10 +31,12 @@ reporails/arcade
 njp-coder/meanwhile
 apolenkov/agent-shell-watch
 apolenkov/agent-council
+apolenkov/agent-compact-advisor
 ruihe774/cc-micro-compaction
 ugglr/claude-token-monster
 ben-rogerson/claude-counter-strike
 muellerei/task-line
 muellerei/enable-todo-tools
 Sumit189/explain-claude-mod
+vicmpen/mokkan
 chrisluo5311/Pixel-Play

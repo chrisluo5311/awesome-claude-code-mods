@@ -83,6 +83,8 @@ anthropics/claude-code
 anthropics/claude-plugins-official
 anzal1/hush
 aovestdipaperino/plank
+apolenkov/agent-compact-advisor
+apolenkov/agent-council
 apolenkov/agent-shell-watch
 AppitStudio/awesome-jev
 aqaurius6666/claude-blast-radius
@@ -1076,6 +1078,7 @@ VedantAndhale/claude-pro-kit
 Vedmeena21/understanding-jev
 vgnshiyer/nowloading
 vgnshiyer/tps-report
+vicmpen/mokkan
 viik2k/clawdify
 vinta/hal-9000
 vitoliu93/harness-dev-plugins

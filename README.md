@@ -7,7 +7,7 @@ Add a browser beside your conversation, keep usage in view, or check a command b
 This community catalogue scans public GitHub repositories and records what Claude's validator reports each mod can read, write, run or send over the network. It is an independent scan, not an official Anthropic directory.
 
 <!-- stats:start -->
-**1744 mods** · Last scanned 2026-10-04.
+**1747 mods** · Last scanned 2026-10-04.
 <!-- stats:end -->
 
 ![Browsing a GitHub pull request beside a Claude Code conversation using terminal-browser](assets/terminal-browser-demo.gif)
@@ -78,7 +78,8 @@ Read the mod's source and access details before installing. Validation checks th
 - [minefield](https://github.com/reporails/arcade/tree/main/minefield) - Minesweeper in a pane beside the transcript, with big square tiles when docked, a best time and a face that follows your cursor, hooking no prompt or tool call and making no network calls.
 - [meanwhile](https://github.com/njp-coder/meanwhile) - One question a day above the prompt, written by a daily Haiku call from the Hacker News front page and new GitHub repos, with the answer after 40 seconds of Claude working or on Show answer, and `/wrapped` for a share card of the day.
 - [cs-radio](https://github.com/ben-rogerson/claude-counter-strike) - Counter-Strike 1.6 radio calls on Claude Code events, from "Fire in the hole" when a deploy starts to "Bomb has been defused" when a long turn lands, played from your own CS install or bundled soundalikes.
-- [Pixel Play](https://github.com/chrisluo5311/Pixel-Play) - A docked pane that streams a YouTube or local playlist through mpv and yt-dlp while one of ten animated pixel-art skins dances beside the conversation.
+- [claude-pokemon](https://github.com/dgokcin/claude-pokemon-mod) - Any of the 151 gen 1 Pokémon above the prompt to feed, pet and evolve, with a Poké Ball for each running subagent and 135 animated attacks.
+- [Pixel Play](https://github.com/chrisluo5311/Pixel-Play) - A docked pane that streams a YouTube or local playlist through mpv and yt-dlp while an animated pixel-art skin of your choice dances beside the conversation.
 
 ## Git, pull requests and CI
 
@@ -110,6 +111,8 @@ Read the mod's source and access details before installing. Validation checks th
 - [harness-scope](https://github.com/shimo4228/harness-scope) - Per-repo profiles for global skills, agents, rules files and tools: a repo picks a named profile from ~/.claude and Claude sees only what it allows, with no network or model calls.
 - [micro-compaction](https://github.com/ruihe774/cc-micro-compaction) - Adds `/compact micro`, which replaces Read results with placeholders and drops thinking without a model call, leaving every other message as it was.
 - [pinboard](https://github.com/sirkitree/pinboard) - A pane that keeps open decisions, the task list and links Claude creates in view while the transcript scrolls, updated through its own tool.
+- [mokkan](https://github.com/vicmpen/mokkan/tree/main/claude-plugin) - `/mokkan` docks a pane of todos and timed reminders beside the transcript, shared with every Claude Code, Codex and terminal session through the mokkan server (api.mokkan.dev), which emails a due reminder nobody acknowledges.
+- [agent-compact-advisor](https://github.com/apolenkov/agent-compact-advisor) - A 0-100 score in the status line for how good a moment it is to `/compact`, with a ready `/compact` suggestion past a threshold and a template added to every compaction that keeps the goal, decisions and open leftovers; it never compacts by itself, and its one network call goes to a local Kev endpoint on loopback.
 
 ## Rendering
 
@@ -120,6 +123,7 @@ Read the mod's source and access details before installing. Validation checks th
 - [gfm-render](https://github.com/briangtn/claude-gfm-render) - Draws GitHub alerts, task lists, strikethrough and Mermaid diagrams in Claude's replies, as box art in the terminal and SVG on the desktop.
 - [ko-ui](https://github.com/moduvoice/claude-code-ko-ui) - Shows slash-command descriptions, `/config` rows, spinner words, tool-call summaries and some transcript lines in Korean from a static dictionary, with no model calls or network.
 - [explain-as](https://github.com/Sumit189/explain-claude-mod) - `/explain` turns answers into plain ASD-STE100 prose, a Mermaid diagram or an HTML page shown as a zoomable picture in a pane (screenshot by a local headless Chrome), or a narrated canvas explainer video that plays in Chrome.
+- [prismantis](https://github.com/NahumLitvin/prismantis) - Redraws Claude's replies in a chosen colour theme, with tables, highlighted code, numbers and paths, GitHub alerts, mermaid diagrams and charts as box art, and right-to-left Hebrew and Arabic.
 
 ## Agents and workflows
 
@@ -144,6 +148,7 @@ Read the mod's source and access details before installing. Validation checks th
 - [Function Hooks: the issue](https://github.com/anthropics/claude-code/issues/91870) - The design thread: architecture PDF, nine demo videos, the cheat sheet and the community updates.
 - [Anthropic's built-in mods](https://github.com/anthropics/claude-code/tree/main/mods) - Source of diff, sec-default and telemetry, with the test kit and the noun-contract convention.
 - [claude-mods-skill](https://github.com/BeLazy167/claude-mods-skill) - A skill that teaches Claude to build a mod, with a working hello-mod to copy.
+- [mod-builder](https://github.com/noeltock/mod-builder) - A skill that mocks up, builds and tests a mod so it looks native in the terminal and the desktop app.
 - [awesome-claude-code-function-hooks](https://github.com/ray-amjad/awesome-claude-code-function-hooks) - The first list, from before the rename, with two plugins and a clean tsconfig recipe.
 
 ## Every mod the scanner found
